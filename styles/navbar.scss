@@ -1,0 +1,106 @@
+.navbar {
+  max-width: 100%;
+  height: 80px;
+  padding: 0 12%;
+  margin: 0 auto;
+  background-color: #004733;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.part1 {
+  display: flex; // Ensures horizontal layout of the items in part1
+  align-items: center;
+  .logo {
+    font-size: 1.6rem;
+    font-weight: bold;
+  }
+
+  a {
+    font-size: 0.9rem;
+    padding: 0 30px;
+    color: aliceblue;
+    text-decoration: none;
+  }
+
+  /* Dropdown container */
+}
+
+.part2 {
+  display: flex; // Ensures part2 items are in a horizontal layout
+  align-items: center;
+
+  .callus {
+    font-size: 1.2rem;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 50px;
+    padding: 15px 15px 9px 15px;
+  }
+
+  a {
+    font-size: 0.9rem;
+    padding: 0 30px;
+    color: aliceblue;
+    text-decoration: none;
+  }
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block; // Ensures dropdowns are horizontally aligned with other links
+}
+
+/* Dropdown links */
+.dropdown a {
+  font-size: 0.9rem;
+  padding: 0 30px;
+  color: aliceblue;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Dropdown menu */
+.dropdown-content {
+  margin-top: 1.5rem;
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 20rem;
+  z-index: 1000;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  padding: 10px 0;
+  border-radius: 5px;
+  // transition: 1s ease-in-out;
+}
+
+/* Dropdown items */
+.dropdown-content a {
+  color: rgb(0, 0, 0);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+
+  &:hover {
+    background-color: azure;
+  }
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+  margin: 1.5rem 14px;
+}
+
+/* Hover effect for the dropdown link */
+.dropdown:hover a {
+  margin: 0 14px;
+  color: black;
+  background-color: #ffffff;
+  padding: 1rem;
+  border-radius: 10px;
+}

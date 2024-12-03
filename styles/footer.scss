@@ -1,0 +1,59 @@
+.footerContainer {
+  width: 80%;
+  margin: 40px auto 0 auto;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.upperFooter {
+  margin: 30px auto;
+  display: flex;
+  justify-content: space-evenly;
+  .letterImg {
+    padding-top: 1rem;
+    height: 50px;
+    cursor: pointer;
+  }
+  h3 {
+    color: rgb(71, 71, 71);
+    font-size: 17px;
+    font-weight: 600;
+    margin-top: 60px;
+  }
+  h4 {
+    color: rgb(71, 71, 71);
+    font-size: 17px;
+    font-weight: 550;
+    margin-top: 20px;
+  }
+  p {
+    padding-top: 0.5rem;
+    max-width: 75%;
+    line-height: 1.5rem;
+    font-size: 15px;
+  }
+  .homelogo {
+    padding: 15px 15px 0 0;
+    height: 60px;
+    width: 60px;
+  }
+}
+.socials {
+  margin-top: 250px;
+  margin-bottom: 50px;
+  font-size: 1.7rem;
+  .logoSocial {
+    padding-right: 20px;
+    height: 50px;
+    width: 50px;
+  }
+}
+
+.lowerFooter {
+  hr {
+    margin: 30px 0;
+  }
+  p {
+    padding: 0.5rem 0;
+    line-height: 1.3rem;
+    font-size: 12px;
+  }
+}
