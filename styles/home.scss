@@ -133,9 +133,13 @@
     left: 51%;
     h2 {
       font-size: 88px;
+      line-height: 5rem;
       font-weight: 500;
-      max-width: 80%;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      letter-spacing: -2px;
+      max-width: 70%;
       padding-bottom: 20px;
+      color: #303030;
     }
     button {
       background-color: #004733;
